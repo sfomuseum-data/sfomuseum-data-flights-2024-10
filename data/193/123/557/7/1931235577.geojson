@@ -2,10 +2,12 @@
   "id": 1931235577,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-07",
-    "date:inception_upper": "2024-10-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-07",
+    "date:cessation_lower": "2024-10-08",
+    "date:cessation_upper": "2024-10-08",
+    "date:inception_lower": "2024-10-08",
+    "date:inception_upper": "2024-10-08",
+    "edtf:cessation": "2024-10-08T04:55:27Z",
+    "edtf:inception": "2024-10-08T01:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -106.3692875,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "AAR",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 1746879059,
     "sfomuseum:base_flight_id": "20241007-D-AAR-6343",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N890UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100120810",
+      "swim:gufi": "KO85462200"
+    },
     "wof:country": "US",
     "wof:created": 1728406460,
     "wof:geomhash": "17371a5d27e54a99ca50752d2b6a5e79",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931235577,
     "wof:involves": [
+      1159289407,
       1746879059,
       102527513,
       1159285413,
       1914600859,
       1159283917
     ],
-    "wof:lastmodified": 1728406460,
+    "wof:lastmodified": 1728406748,
     "wof:name": "UA2864 (SFO-STL)",
     "wof:parent_id": 1914600859,
     "wof:placetype": "custom",

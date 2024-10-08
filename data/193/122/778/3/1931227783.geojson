@@ -2,10 +2,12 @@
   "id": 1931227783,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-07",
-    "date:inception_upper": "2024-10-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-07",
+    "date:cessation_lower": "2024-10-07",
+    "date:cessation_upper": "2024-10-07",
+    "date:inception_lower": "2024-10-08",
+    "date:inception_upper": "2024-10-08",
+    "edtf:cessation": "2024-10-07T12:57:50-07:00",
+    "edtf:inception": "2024-10-08T01:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.19416749999999,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241007-A-BAW-6918",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N989AN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100115124",
+      "swim:gufi": "KA84710200"
+    },
     "wof:country": "US",
     "wof:created": 1728403267,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1931227783,
     "wof:involves": [
-      102527513,
-      102526751,
       1159283849,
       1914601229,
-      1159284021
+      1159284021,
+      1159289871,
+      102527513,
+      102526751
     ],
-    "wof:lastmodified": 1728403267,
+    "wof:lastmodified": 1728406717,
     "wof:name": "AA2123 (PHX-SFO)",
     "wof:parent_id": 1914601229,
     "wof:placetype": "custom",

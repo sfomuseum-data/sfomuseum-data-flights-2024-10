@@ -2,10 +2,12 @@
   "id": 1931233435,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-07",
+    "date:cessation_upper": "2024-10-07",
     "date:inception_lower": "2024-10-07",
     "date:inception_upper": "2024-10-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-07",
+    "edtf:cessation": "2024-10-07T11:27:23Z",
+    "edtf:inception": "2024-10-07T06:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "QTR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20241007-D-QTR-3338",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N921AK",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100127668"
+    },
     "wof:country": "US",
     "wof:created": 1728405642,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931233435,
     "wof:involves": [
+      1159286153,
+      1528104577,
       102534365,
       102527513,
       1159283813,
-      1914601245,
-      1159286153
+      1914601245
     ],
-    "wof:lastmodified": 1728405642,
+    "wof:lastmodified": 1728406757,
     "wof:name": "AS38 (SFO-JFK)",
     "wof:parent_id": 1914601245,
     "wof:placetype": "custom",

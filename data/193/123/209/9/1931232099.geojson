@@ -2,10 +2,12 @@
   "id": 1931232099,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-07",
-    "date:inception_upper": "2024-10-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-07",
+    "date:cessation_lower": "2024-10-08",
+    "date:cessation_upper": "2024-10-08",
+    "date:inception_lower": "2024-10-08",
+    "date:inception_upper": "2024-10-08",
+    "edtf:cessation": "2024-10-08T12:13:00Z",
+    "edtf:inception": "2024-10-08T07:52:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.65686,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "CSN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102528659,
     "sfomuseum:base_flight_id": "20241007-D-CSN-1638",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N140AN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100129307",
+      "swim:gufi": "KO20326300"
+    },
     "wof:country": "US",
     "wof:created": 1728404816,
     "wof:geomhash": "6d7202e034534315a50103622977ef57",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1931232099,
     "wof:involves": [
-      102528659,
-      102527513,
       1159283849,
       1914601235,
-      1159284165
+      1159284165,
+      1159289411,
+      102528659,
+      102527513
     ],
-    "wof:lastmodified": 1728404816,
+    "wof:lastmodified": 1728406751,
     "wof:name": "AA2112 (SFO-CLT)",
     "wof:parent_id": 1914601235,
     "wof:placetype": "custom",

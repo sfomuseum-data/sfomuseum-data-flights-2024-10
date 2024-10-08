@@ -2,10 +2,12 @@
   "id": 1931229685,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-07",
+    "date:cessation_upper": "2024-10-07",
     "date:inception_lower": "2024-10-07",
     "date:inception_upper": "2024-10-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-07",
+    "edtf:cessation": "2024-10-07T13:58:46-07:00",
+    "edtf:inception": "2024-10-07T22:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -96.6928465,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "DAL",
     "icao:base_airline": "ELY",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241007-A-ELY-4227",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N517DN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100183629",
+      "swim:gufi": "KB72061200"
+    },
     "wof:country": "US",
     "wof:created": 1728403967,
     "wof:geomhash": "9cccd37636918a32bc446a92e7ba93ba",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1931229685,
     "wof:involves": [
+      1914601431,
+      1159284327,
+      1377564297,
       102527513,
       102530741,
-      1159284261,
-      1914601431,
-      1159284327
+      1159284261
     ],
-    "wof:lastmodified": 1728403967,
+    "wof:lastmodified": 1728406732,
     "wof:name": "DL475 (BOS-SFO)",
     "wof:parent_id": 1914601431,
     "wof:placetype": "custom",

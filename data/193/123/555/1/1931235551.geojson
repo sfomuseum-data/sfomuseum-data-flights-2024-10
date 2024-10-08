@@ -2,10 +2,12 @@
   "id": 1931235551,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-07",
-    "date:inception_upper": "2024-10-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-07",
+    "date:cessation_lower": "2024-10-08",
+    "date:cessation_upper": "2024-10-08",
+    "date:inception_lower": "2024-10-08",
+    "date:inception_upper": "2024-10-08",
+    "edtf:cessation": "2024-10-08T02:32:53Z",
+    "edtf:inception": "2024-10-08T00:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533575,
     "sfomuseum:base_flight_id": "20241007-D-ANA-7316",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N77579",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100114101",
+      "swim:gufi": "KO75394200"
+    },
     "wof:country": "US",
     "wof:created": 1728406451,
     "wof:geomhash": "ec8e91229a6790516c63cb7081c35777",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1931235551,
     "wof:involves": [
+      1528104577,
       102533575,
       102527513,
       1159285413,
       1914600859,
       1159283875
     ],
-    "wof:lastmodified": 1728406451,
+    "wof:lastmodified": 1728406759,
     "wof:name": "UA2626 (SFO-ONT)",
     "wof:parent_id": 1914600859,
     "wof:placetype": "custom",

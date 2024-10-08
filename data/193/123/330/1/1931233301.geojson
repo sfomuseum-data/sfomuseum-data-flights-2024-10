@@ -2,10 +2,12 @@
   "id": 1931233301,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-08",
+    "date:cessation_upper": "2024-10-08",
     "date:inception_lower": "2024-10-07",
     "date:inception_upper": "2024-10-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-07",
+    "edtf:cessation": "2024-10-08T10:15:15Z",
+    "edtf:inception": "2024-10-07T22:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "YP",
     "flysfo:date": "2024-10-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.535978,
     "geom:longitude": 2.1453445,
     "iata:airline": "YP",
+    "icao:aircraft": "B789",
     "icao:airline": "APZ",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1930448549,
     "sfomuseum:arrival_id": 102556451,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "HL8516",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -86,9 +96,10 @@
       102556451,
       102527513,
       1930448549,
-      1914601015
+      1914601015,
+      1159293215
     ],
-    "wof:lastmodified": 1728405521,
+    "wof:lastmodified": 1728406756,
     "wof:name": "YP112 (SFO-ICN)",
     "wof:parent_id": 1914601015,
     "wof:placetype": "custom",

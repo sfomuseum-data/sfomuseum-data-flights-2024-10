@@ -2,10 +2,12 @@
   "id": 1931235459,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-07",
-    "date:inception_upper": "2024-10-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-07",
+    "date:cessation_lower": "2024-10-08",
+    "date:cessation_upper": "2024-10-08",
+    "date:inception_lower": "2024-10-08",
+    "date:inception_upper": "2024-10-08",
+    "edtf:cessation": "2024-10-08T08:12:00Z",
+    "edtf:inception": "2024-10-08T07:02:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "DLH",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533927,
     "sfomuseum:base_flight_id": "20241007-D-DLH-9396",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17339",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100127259",
+      "swim:gufi": "KO12918300"
+    },
     "wof:country": "US",
     "wof:created": 1728406420,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1914600931,
-      1159286015
+      1159286015,
+      1528104575
     ],
-    "wof:lastmodified": 1728406420,
+    "wof:lastmodified": 1728406747,
     "wof:name": "UA2142 (SFO-EUG)",
     "wof:parent_id": 1914600931,
     "wof:placetype": "custom",
