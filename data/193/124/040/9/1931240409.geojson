@@ -1,0 +1,78 @@
+{
+  "id": 1931240409,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-10-08",
+    "date:inception_upper": "2024-10-08",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-10-08",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "VA",
+    "flysfo:base_airline": "",
+    "flysfo:base_flight_number": "2222",
+    "flysfo:date": "2024-10-08",
+    "flysfo:estimated_timestamp": 1728449400,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "VA8357",
+    "flysfo:gate": "",
+    "flysfo:journey": "TPA-SFO",
+    "flysfo:scheduled_timestamp": 1728449400,
+    "flysfo:timestamp": 1728449400,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,27.972892,-82.530928,37.617990",
+    "geom:latitude": 32.795441,
+    "geom:longitude": -102.4509355,
+    "iata:airline": "VA",
+    "iata:base_airline": "",
+    "icao:airline": "VOZ",
+    "icao:base_airline": "ANZ",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285485,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:base_flight_id": "20241008-A-ANZ-2222",
+    "sfomuseum:departure_id": 102533243,
+    "sfomuseum:flight_id": "20241008-A-VOZ-8357",
+    "sfomuseum:flight_number": [
+      "VOZ8357",
+      "VA8357"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1728491142,
+    "wof:geomhash": "e5ae5d1ea61206da1f1e1104d6bc1bb7",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1931240409,
+        "flight_id": 1931240409
+      }
+    ],
+    "wof:id": 1931240409,
+    "wof:involves": [
+      102527513,
+      102533243,
+      1159285485,
+      -1,
+      1159283697
+    ],
+    "wof:lastmodified": 1728491142,
+    "wof:name": "VA8357 (TPA-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-10",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    27.972892,
+    -82.530928,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[-82.530928,27.972892],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
