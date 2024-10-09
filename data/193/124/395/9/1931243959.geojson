@@ -2,10 +2,12 @@
   "id": 1931243959,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-08",
-    "date:inception_upper": "2024-10-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-08",
+    "date:cessation_lower": "2024-10-09",
+    "date:cessation_upper": "2024-10-09",
+    "date:inception_lower": "2024-10-09",
+    "date:inception_upper": "2024-10-09",
+    "edtf:cessation": "2024-10-09T03:49:00Z",
+    "edtf:inception": "2024-10-09T01:58:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.7750715,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620304,
     "lbl:longitude": -122.388827,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102555307,
     "sfomuseum:base_flight_id": "20241008-D-ACA-5109",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N449UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO78043300"
+    },
     "wof:country": "US",
     "wof:created": 1728492398,
     "wof:geomhash": "af4ccf784d832b160f78d13fe8b8589a",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931243959,
     "wof:involves": [
+      1159283597,
+      1159292085,
       102555307,
       102527513,
       1159285413,
-      1914600847,
-      1159283597
+      1914600847
     ],
-    "wof:lastmodified": 1728492398,
+    "wof:lastmodified": 1728492705,
     "wof:name": "UA460 (SFO-YVR)",
     "wof:parent_id": 1914600847,
     "wof:placetype": "custom",
