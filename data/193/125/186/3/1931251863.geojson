@@ -2,10 +2,12 @@
   "id": 1931251863,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-09",
-    "date:inception_upper": "2024-10-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-09",
+    "date:cessation_lower": "2024-10-10",
+    "date:cessation_upper": "2024-10-10",
+    "date:inception_lower": "2024-10-10",
+    "date:inception_upper": "2024-10-10",
+    "edtf:cessation": "2024-10-10T06:39:25Z",
+    "edtf:inception": "2024-10-10T05:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:base_flight_id": "20241009-D-ACA-5608",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N17302",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100304014",
+      "swim:gufi": "KO10391500"
+    },
     "wof:country": "US",
     "wof:created": 1728578628,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1931251863,
     "wof:involves": [
+      1528104575,
       102528997,
       102527513,
       1159285413,
       1914600931,
       1159283597
     ],
-    "wof:lastmodified": 1728578628,
+    "wof:lastmodified": 1728579026,
     "wof:name": "UA1007 (SFO-SAN)",
     "wof:parent_id": 1914600931,
     "wof:placetype": "custom",

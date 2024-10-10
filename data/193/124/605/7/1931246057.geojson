@@ -2,10 +2,12 @@
   "id": 1931246057,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-09",
+    "date:cessation_upper": "2024-10-09",
     "date:inception_lower": "2024-10-09",
     "date:inception_upper": "2024-10-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-09",
+    "edtf:cessation": "2024-10-09T04:43:39-07:00",
+    "edtf:inception": "2024-10-09T13:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241009-A-AAL-7506",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N268AK",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100405783"
+    },
     "wof:country": "US",
     "wof:created": 1728576583,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -92,9 +105,10 @@
       102530049,
       1159283813,
       1914601243,
-      1159283849
+      1159283849,
+      1377564285
     ],
-    "wof:lastmodified": 1728576583,
+    "wof:lastmodified": 1728579020,
     "wof:name": "AS373 (EWR-SFO)",
     "wof:parent_id": 1914601243,
     "wof:placetype": "custom",

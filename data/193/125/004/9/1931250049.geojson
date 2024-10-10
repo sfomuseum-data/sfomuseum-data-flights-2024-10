@@ -2,10 +2,12 @@
   "id": 1931250049,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-09",
+    "date:cessation_upper": "2024-10-09",
     "date:inception_lower": "2024-10-09",
     "date:inception_upper": "2024-10-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-09",
+    "edtf:cessation": "2024-10-09T22:29:21Z",
+    "edtf:inception": "2024-10-09T21:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532251,
     "sfomuseum:base_flight_id": "20241009-D-BAW-2984",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N409AS",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100366795"
+    },
     "wof:country": "US",
     "wof:created": 1728578014,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -92,9 +105,10 @@
       102527513,
       1159283813,
       1914601209,
-      1159284021
+      1159284021,
+      1377564285
     ],
-    "wof:lastmodified": 1728578014,
+    "wof:lastmodified": 1728579004,
     "wof:name": "AS127 (SFO-PDX)",
     "wof:parent_id": 1914601209,
     "wof:placetype": "custom",

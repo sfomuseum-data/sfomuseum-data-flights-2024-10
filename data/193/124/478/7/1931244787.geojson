@@ -2,10 +2,12 @@
   "id": 1931244787,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-10",
+    "date:cessation_upper": "2024-10-10",
     "date:inception_lower": "2024-10-09",
     "date:inception_upper": "2024-10-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-09",
+    "edtf:cessation": "2024-10-10T05:35:00Z",
+    "edtf:inception": "2024-10-09T23:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241009-A-BAW-5021",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +60,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100381220"
+    },
     "wof:country": "US",
     "wof:created": 1728576083,
     "wof:geomhash": "38f88108bbae8bb050c3144d37bdc384",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 1931244787,
     "wof:involves": [
-      102527513,
-      102531023,
       1159283849,
       1914601251,
-      1159284021
+      1159284021,
+      1159289411,
+      102527513,
+      102531023
     ],
-    "wof:lastmodified": 1728576083,
+    "wof:lastmodified": 1728579004,
     "wof:name": "AA2280 (MIA-SFO)",
     "wof:parent_id": 1914601251,
     "wof:placetype": "custom",

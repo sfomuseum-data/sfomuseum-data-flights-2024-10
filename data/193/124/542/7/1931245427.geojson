@@ -2,10 +2,12 @@
   "id": 1931245427,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-10",
+    "date:cessation_upper": "2024-10-10",
     "date:inception_lower": "2024-10-09",
     "date:inception_upper": "2024-10-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-09",
+    "edtf:cessation": "2024-10-10T03:03:22Z",
+    "edtf:inception": "2024-10-09T18:38:35Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "NH",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 8.702347499999995,
     "iata:airline": "NH",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "ANA",
     "icao:base_airline": "UAL",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159283875,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241009-A-UAL-7939",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +60,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100459171"
+    },
     "wof:country": "US",
     "wof:created": 1728576340,
     "wof:geomhash": "99c2bdbe61e95eb26a51b43b0c172358",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 1931245427,
     "wof:involves": [
-      102527513,
       102541591,
       1159283875,
       1914601069,
-      1159285413
+      1159285413,
+      1159289993,
+      102527513
     ],
-    "wof:lastmodified": 1728576340,
+    "wof:lastmodified": 1728579015,
     "wof:name": "NH108 (HND-SFO)",
     "wof:parent_id": 1914601069,
     "wof:placetype": "custom",

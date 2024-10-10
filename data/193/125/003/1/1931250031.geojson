@@ -2,10 +2,12 @@
   "id": 1931250031,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-09",
+    "date:cessation_upper": "2024-10-09",
     "date:inception_lower": "2024-10-09",
     "date:inception_upper": "2024-10-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-09",
+    "edtf:cessation": "2024-10-09T16:34:18Z",
+    "edtf:inception": "2024-10-09T15:31:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "LAN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20241009-D-LAN-5097",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N962AK",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100330249",
+      "swim:gufi": "KO50478401"
+    },
     "wof:country": "US",
     "wof:created": 1728578008,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931250031,
     "wof:involves": [
-      102533795,
       102527513,
       1159283813,
       1914601213,
-      1159285641
+      1159285641,
+      1528104577,
+      102533795
     ],
-    "wof:lastmodified": 1728578008,
+    "wof:lastmodified": 1728579003,
     "wof:name": "AS1054 (SFO-LAX)",
     "wof:parent_id": 1914601213,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1931252439,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-10",
+    "date:cessation_upper": "2024-10-10",
     "date:inception_lower": "2024-10-09",
     "date:inception_upper": "2024-10-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-09",
+    "edtf:cessation": "2024-10-10T00:23:58Z",
+    "edtf:inception": "2024-10-09T20:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102536579,
     "sfomuseum:base_flight_id": "20241009-D-ANZ-9823",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N437UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100362992",
+      "swim:gufi": "KO59234400"
+    },
     "wof:country": "US",
     "wof:created": 1728578831,
     "wof:geomhash": "01999c4327be8e36df88ffd5cda77111",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1914600859,
-      1159283697
+      1159283697,
+      1159292085
     ],
-    "wof:lastmodified": 1728578831,
+    "wof:lastmodified": 1728579036,
     "wof:name": "UA821 (SFO-MEX)",
     "wof:parent_id": 1914600859,
     "wof:placetype": "custom",

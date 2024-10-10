@@ -2,10 +2,12 @@
   "id": 1931247907,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-09",
-    "date:inception_upper": "2024-10-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-09",
+    "date:cessation_lower": "2024-10-10",
+    "date:cessation_upper": "2024-10-10",
+    "date:inception_lower": "2024-10-10",
+    "date:inception_upper": "2024-10-10",
+    "edtf:cessation": "2024-10-09T17:20:33-07:00",
+    "edtf:inception": "2024-10-10T03:18:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -139.40440999999998,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241009-A-ACA-3540",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N213UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100377864",
+      "swim:gufi": "KO21031500"
+    },
     "wof:country": "US",
     "wof:created": 1728577262,
     "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931247907,
     "wof:involves": [
+      1159289985,
       102527513,
       102532929,
       1159285413,
       1914600849,
       1159283597
     ],
-    "wof:lastmodified": 1728577262,
+    "wof:lastmodified": 1728579042,
     "wof:name": "UA1722 (OGG-SFO)",
     "wof:parent_id": 1914600849,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1931247625,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-09",
+    "date:cessation_upper": "2024-10-09",
     "date:inception_lower": "2024-10-09",
     "date:inception_upper": "2024-10-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-09",
+    "edtf:cessation": "2024-10-09T08:18:28-07:00",
+    "edtf:inception": "2024-10-09T18:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2024-10-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.180931,
     "geom:longitude": -106.3692875,
     "iata:airline": "WN",
+    "icao:aircraft": "B738",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 1746879059,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8695D",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100345007",
+      "swim:gufi": "KK59336400"
+    },
     "wof:country": "US",
     "wof:created": 1728577165,
     "wof:geomhash": "5aed0915f9f8845326df52b0d348a4b7",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1931247625,
     "wof:involves": [
-      102527513,
       1746879059,
       1159285591,
-      1914601207
+      1914601207,
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1728577165,
+    "wof:lastmodified": 1728579038,
     "wof:name": "WN2841 (STL-SFO)",
     "wof:parent_id": 1914601207,
     "wof:placetype": "custom",

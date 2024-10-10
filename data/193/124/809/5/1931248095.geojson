@@ -2,10 +2,12 @@
   "id": 1931248095,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-09",
+    "date:cessation_upper": "2024-10-09",
     "date:inception_lower": "2024-10-09",
     "date:inception_upper": "2024-10-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-09",
+    "edtf:cessation": "2024-10-09T10:35:42-07:00",
+    "edtf:inception": "2024-10-09T21:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -108.5435595,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241009-A-ANZ-9502",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N477UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100368349",
+      "swim:gufi": "KK62254400"
+    },
     "wof:country": "US",
     "wof:created": 1728577327,
     "wof:geomhash": "35ddb46351d590846e83b74bc4468cc8",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1931248095,
     "wof:involves": [
+      1159283697,
+      1159292085,
       102527513,
       102533051,
       1159285413,
-      1914601367,
-      1159283697
+      1914601367
     ],
-    "wof:lastmodified": 1728577327,
+    "wof:lastmodified": 1728579045,
     "wof:name": "UA278 (MCI-SFO)",
     "wof:parent_id": 1914601367,
     "wof:placetype": "custom",
