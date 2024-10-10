@@ -1,0 +1,72 @@
+{
+  "id": 1931244923,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-10-09",
+    "date:inception_upper": "2024-10-09",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-10-09",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "AA",
+    "flysfo:date": "2024-10-09",
+    "flysfo:estimated_timestamp": 1728515520,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "AA9786",
+    "flysfo:gate": "",
+    "flysfo:journey": "STS-SFO",
+    "flysfo:scheduled_timestamp": 1728502620,
+    "flysfo:timestamp": 1728515520,
+    "geom:area": 0,
+    "geom:bbox": "-122.806017,37.617990,-122.370943,38.510830",
+    "geom:latitude": 38.064409999999995,
+    "geom:longitude": -122.58848,
+    "iata:airline": "AA",
+    "icao:airline": "AAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159283849,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102533507,
+    "sfomuseum:flight_id": "20241009-A-AAL-9786",
+    "sfomuseum:flight_number": [
+      "AAL9786",
+      "AA9786"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1728576142,
+    "wof:geomhash": "ba0ac8f0313e0faf8aa722fdd03f817a",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1931244923,
+        "flight_id": 1931244923
+      }
+    ],
+    "wof:id": 1931244923,
+    "wof:involves": [
+      102527513,
+      102533507,
+      1159283849,
+      -1
+    ],
+    "wof:lastmodified": 1728576142,
+    "wof:name": "AA9786 (STS-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-10",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.806017,
+    37.61799,
+    -122.370943,
+    38.51083
+  ],
+  "geometry": {"coordinates":[[-122.806017,38.51083],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
