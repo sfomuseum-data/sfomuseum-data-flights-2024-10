@@ -2,10 +2,12 @@
   "id": 1931260859,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-10",
-    "date:inception_upper": "2024-10-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-10",
+    "date:cessation_lower": "2024-10-11",
+    "date:cessation_upper": "2024-10-11",
+    "date:inception_lower": "2024-10-11",
+    "date:inception_upper": "2024-10-11",
+    "edtf:cessation": "2024-10-11T06:17:21Z",
+    "edtf:inception": "2024-10-11T02:42:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-10-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.8002995,
     "geom:longitude": -106.31638749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530009,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N467UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100390545",
+      "swim:gufi": "KO81372500"
+    },
     "wof:country": "US",
     "wof:created": 1728665296,
     "wof:geomhash": "8b4edcad4124de1c487808d2d2d1ecd3",
@@ -86,9 +100,10 @@
       102530009,
       102527513,
       1159285413,
-      1914601063
+      1914601063,
+      1159292085
     ],
-    "wof:lastmodified": 1728665296,
+    "wof:lastmodified": 1728665659,
     "wof:name": "UA1469 (SFO-MSY)",
     "wof:parent_id": 1914601063,
     "wof:placetype": "custom",

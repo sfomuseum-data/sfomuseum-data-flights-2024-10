@@ -2,10 +2,12 @@
   "id": 1931255347,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-10",
+    "date:cessation_upper": "2024-10-10",
     "date:inception_lower": "2024-10-10",
     "date:inception_upper": "2024-10-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-10",
+    "edtf:cessation": "2024-10-10T02:17:27-07:00",
+    "edtf:inception": "2024-10-10T14:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F8",
     "flysfo:date": "2024-10-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 43.40566,
     "geom:longitude": -122.7750715,
     "iata:airline": "F8",
+    "icao:aircraft": "B38M",
     "icao:airline": "FLE",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1763552143,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102555307,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "CFLKA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100417073"
+    },
     "wof:country": "US",
     "wof:created": 1728663366,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -86,9 +99,10 @@
       102527513,
       102555307,
       1763552143,
-      1930448513
+      1930448513,
+      1528104575
     ],
-    "wof:lastmodified": 1728663366,
+    "wof:lastmodified": 1728665689,
     "wof:name": "F81848 (YVR-SFO)",
     "wof:parent_id": 1930448513,
     "wof:placetype": "custom",

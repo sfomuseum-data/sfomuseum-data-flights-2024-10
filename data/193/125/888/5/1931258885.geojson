@@ -2,10 +2,12 @@
   "id": 1931258885,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-11",
+    "date:cessation_upper": "2024-10-11",
     "date:inception_lower": "2024-10-10",
     "date:inception_upper": "2024-10-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-10",
+    "edtf:cessation": "2024-10-11T00:13:00Z",
+    "edtf:inception": "2024-10-10T18:59:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.1446795,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "FJI",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:base_flight_id": "20241010-D-FJI-5806",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N483AS",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100444836"
+    },
     "wof:country": "US",
     "wof:created": 1728664613,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931258885,
     "wof:involves": [
-      102533997,
-      102527513,
       1159283813,
       1914601223,
-      1159283717
+      1159283717,
+      1377564285,
+      102533997,
+      102527513
     ],
-    "wof:lastmodified": 1728664613,
+    "wof:lastmodified": 1728665683,
     "wof:name": "AS877 (SFO-HNL)",
     "wof:parent_id": 1914601223,
     "wof:placetype": "custom",

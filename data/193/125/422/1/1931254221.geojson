@@ -2,10 +2,12 @@
   "id": 1931254221,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-10",
+    "date:cessation_upper": "2024-10-10",
     "date:inception_lower": "2024-10-10",
     "date:inception_upper": "2024-10-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-10",
+    "edtf:cessation": "2024-10-10T17:25:10Z",
+    "edtf:inception": "2024-10-10T16:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "QTR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241010-A-QTR-3415",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N274AK",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100422916",
+      "swim:gufi": "KL50480502"
+    },
     "wof:country": "US",
     "wof:created": 1728662991,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1931254221,
     "wof:involves": [
-      102527513,
-      102533795,
       1159283813,
       1914601209,
-      1159286153
+      1159286153,
+      1377564285,
+      102527513,
+      102533795
     ],
-    "wof:lastmodified": 1728662991,
+    "wof:lastmodified": 1728665663,
     "wof:name": "AS1051 (LAX-SFO)",
     "wof:parent_id": 1914601209,
     "wof:placetype": "custom",
