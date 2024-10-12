@@ -2,10 +2,12 @@
   "id": 1931266495,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-11",
+    "date:cessation_upper": "2024-10-11",
     "date:inception_lower": "2024-10-11",
     "date:inception_upper": "2024-10-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-11",
+    "edtf:cessation": "2024-10-11T15:39:01Z",
+    "edtf:inception": "2024-10-11T12:46:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "QFA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:base_flight_id": "20241011-D-QFA-3294",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N161UW",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100506810",
+      "swim:gufi": "KO41343600"
+    },
     "wof:country": "US",
     "wof:created": 1728750496,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931266495,
     "wof:involves": [
+      1159289411,
       102528541,
       102527513,
       1159283849,
       1914601249,
       1159285043
     ],
-    "wof:lastmodified": 1728750496,
+    "wof:lastmodified": 1728752026,
     "wof:name": "AA402 (SFO-DFW)",
     "wof:parent_id": 1914601249,
     "wof:placetype": "custom",

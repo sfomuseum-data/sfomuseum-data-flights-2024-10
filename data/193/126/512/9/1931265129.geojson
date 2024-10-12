@@ -2,10 +2,12 @@
   "id": 1931265129,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-11",
-    "date:inception_upper": "2024-10-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-11",
+    "date:cessation_lower": "2024-10-11",
+    "date:cessation_upper": "2024-10-11",
+    "date:inception_lower": "2024-10-12",
+    "date:inception_upper": "2024-10-12",
+    "edtf:cessation": "2024-10-11T16:15:38-07:00",
+    "edtf:inception": "2024-10-12T05:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2024-10-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528997,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N934WN",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100488461",
+      "swim:gufi": "KL10470700"
+    },
     "wof:country": "US",
     "wof:created": 1728750019,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1931265129,
     "wof:involves": [
+      1159289869,
       102527513,
       102528997,
       1159285591,
       1914601207
     ],
-    "wof:lastmodified": 1728750019,
+    "wof:lastmodified": 1728752019,
     "wof:name": "WN4337 (SAN-SFO)",
     "wof:parent_id": 1914601207,
     "wof:placetype": "custom",

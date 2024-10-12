@@ -2,10 +2,12 @@
   "id": 1931270037,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-11",
+    "date:cessation_upper": "2024-10-11",
     "date:inception_lower": "2024-10-11",
     "date:inception_upper": "2024-10-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-11",
+    "edtf:cessation": "2024-10-11T21:40:00Z",
+    "edtf:inception": "2024-10-11T18:01:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -106.31638749999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.619124,
     "lbl:longitude": -122.383949,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102530009,
     "sfomuseum:base_flight_id": "20241011-D-ANZ-2159",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
+    "swim:tail_number": "N47298",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100535941"
+    },
     "wof:country": "US",
     "wof:created": 1728751716,
     "wof:geomhash": "8b4edcad4124de1c487808d2d2d1ecd3",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1931270037,
     "wof:involves": [
+      1528104575,
       102530009,
       102527513,
       1159285413,
       1914600937,
       1159283697
     ],
-    "wof:lastmodified": 1728751716,
+    "wof:lastmodified": 1728752005,
     "wof:name": "UA2356 (SFO-MSY)",
     "wof:parent_id": 1914600937,
     "wof:placetype": "custom",

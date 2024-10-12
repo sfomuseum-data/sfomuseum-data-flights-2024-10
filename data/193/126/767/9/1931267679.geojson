@@ -2,10 +2,12 @@
   "id": 1931267679,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2024-10-11",
     "date:inception_upper": "2024-10-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-11",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2024-10-11T03:43:04-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20241011-D-AAL-7530",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N317AS",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -92,9 +101,10 @@
       102527513,
       1159283813,
       1914601245,
-      1159283849
+      1159283849,
+      1377564285
     ],
-    "wof:lastmodified": 1728750910,
+    "wof:lastmodified": 1728752030,
     "wof:name": "AS1289 (SFO-SEA)",
     "wof:parent_id": 1914601245,
     "wof:placetype": "custom",

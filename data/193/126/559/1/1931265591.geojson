@@ -2,10 +2,12 @@
   "id": 1931265591,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-11",
+    "date:cessation_upper": "2024-10-11",
     "date:inception_lower": "2024-10-11",
     "date:inception_upper": "2024-10-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-11",
+    "edtf:cessation": "2024-10-11T02:48:21-07:00",
+    "edtf:inception": "2024-10-11T15:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241011-A-ANA-7327",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17336",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100514774",
+      "swim:gufi": "KS43501600"
+    },
     "wof:country": "US",
     "wof:created": 1728750178,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -92,9 +106,10 @@
       102533269,
       1159285413,
       1914601359,
-      1159283875
+      1159283875,
+      1528104575
     ],
-    "wof:lastmodified": 1728750178,
+    "wof:lastmodified": 1728752051,
     "wof:name": "UA246 (SEA-SFO)",
     "wof:parent_id": 1914601359,
     "wof:placetype": "custom",

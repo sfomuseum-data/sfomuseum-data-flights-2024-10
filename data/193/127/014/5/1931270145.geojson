@@ -2,10 +2,12 @@
   "id": 1931270145,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-12",
+    "date:cessation_upper": "2024-10-12",
     "date:inception_lower": "2024-10-11",
     "date:inception_upper": "2024-10-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-11",
+    "edtf:cessation": "2024-10-12T05:26:22Z",
+    "edtf:inception": "2024-10-11T01:53:59-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-10-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.9627305,
     "geom:longitude": -4.221753499999998,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61836,
     "lbl:longitude": -122.393229,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102541737,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N784UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100522932",
+      "swim:gufi": "KO36255600"
+    },
     "wof:country": "US",
     "wof:created": 1728751752,
     "wof:geomhash": "b8fc8d95bb44b1c6b9f6cb201e4d2ca9",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1931270145,
     "wof:involves": [
+      1159289985,
       102541737,
       102527513,
       1159285413,
       1914601073
     ],
-    "wof:lastmodified": 1728751752,
+    "wof:lastmodified": 1728752007,
     "wof:name": "UA3910 (SFO-HKG)",
     "wof:parent_id": 1914601073,
     "wof:placetype": "custom",

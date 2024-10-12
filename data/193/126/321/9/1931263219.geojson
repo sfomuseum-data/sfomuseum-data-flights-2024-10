@@ -2,10 +2,12 @@
   "id": 1931263219,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-11",
+    "date:cessation_upper": "2024-10-11",
     "date:inception_lower": "2024-10-11",
     "date:inception_upper": "2024-10-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-11",
+    "edtf:cessation": "2024-10-11T10:12:25-07:00",
+    "edtf:inception": "2024-10-11T21:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -113.8106995,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "HAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241011-A-HAL-6376",
@@ -39,7 +43,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N585AS",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "100557121"
+    },
     "wof:country": "US",
     "wof:created": 1728749362,
     "wof:geomhash": "87e43b321087b5e7d68ac47fe0a6e824",
@@ -51,13 +64,13 @@
     ],
     "wof:id": 1931263219,
     "wof:involves": [
-      102527513,
-      102536481,
       1159283813,
-      -1,
-      1159284489
+      1159284489,
+      1159289871,
+      102527513,
+      102536481
     ],
-    "wof:lastmodified": 1728749362,
+    "wof:lastmodified": 1728752043,
     "wof:name": "AS1345 (PVR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

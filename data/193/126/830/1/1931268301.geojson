@@ -2,10 +2,12 @@
   "id": 1931268301,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-11",
+    "date:cessation_upper": "2024-10-11",
     "date:inception_lower": "2024-10-11",
     "date:inception_upper": "2024-10-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-11",
+    "edtf:cessation": "2024-10-11T22:13:00Z",
+    "edtf:inception": "2024-10-11T06:56:33-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "DAL",
     "icao:base_airline": "KAL",
     "lbl:latitude": 37.615398,
     "lbl:longitude": -122.383426,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:base_flight_id": "20241011-D-KAL-6743",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N392DA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100555681",
+      "swim:gufi": "KO71162600"
+    },
     "wof:country": "US",
     "wof:created": 1728751125,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -92,9 +106,10 @@
       102527513,
       1159284261,
       1914601425,
-      1159284625
+      1159284625,
+      1159289871
     ],
-    "wof:lastmodified": 1728751125,
+    "wof:lastmodified": 1728752055,
     "wof:name": "DL902 (SFO-SLC)",
     "wof:parent_id": 1914601425,
     "wof:placetype": "custom",
