@@ -2,10 +2,12 @@
   "id": 1931278291,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-12",
-    "date:inception_upper": "2024-10-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-12",
+    "date:cessation_lower": "2024-10-13",
+    "date:cessation_upper": "2024-10-13",
+    "date:inception_lower": "2024-10-13",
+    "date:inception_upper": "2024-10-13",
+    "edtf:cessation": "2024-10-13T02:43:00Z",
+    "edtf:inception": "2024-10-13T01:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-10-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.868524,
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533927,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N75854",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO73431700"
+    },
     "wof:country": "US",
     "wof:created": 1728837766,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1931278291,
     "wof:involves": [
+      1159289945,
       102533927,
       102527513,
       1159285413,
       1914600899
     ],
-    "wof:lastmodified": 1728837766,
+    "wof:lastmodified": 1728838050,
     "wof:name": "UA3757 (SFO-EUG)",
     "wof:parent_id": 1914600899,
     "wof:placetype": "custom",

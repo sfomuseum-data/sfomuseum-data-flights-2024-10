@@ -2,10 +2,12 @@
   "id": 1931277827,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-12",
-    "date:inception_upper": "2024-10-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-12",
+    "date:cessation_lower": "2024-10-13",
+    "date:cessation_upper": "2024-10-13",
+    "date:inception_lower": "2024-10-13",
+    "date:inception_upper": "2024-10-13",
+    "edtf:cessation": "2024-10-13T10:43:22Z",
+    "edtf:inception": "2024-10-13T00:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "TP",
     "flysfo:date": "2024-10-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.195417,
     "geom:longitude": -65.753267,
     "iata:airline": "TP",
+    "icao:aircraft": "A339",
     "icao:airline": "TAP",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1393786509,
     "sfomuseum:airline_id": 1159285271,
     "sfomuseum:arrival_id": 102535643,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CSTUO",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -83,12 +93,13 @@
     ],
     "wof:id": 1931277827,
     "wof:involves": [
-      102535643,
       102527513,
       1159285271,
-      1914601003
+      1914601003,
+      1393786509,
+      102535643
     ],
-    "wof:lastmodified": 1728837611,
+    "wof:lastmodified": 1728838032,
     "wof:name": "TP236 (SFO-LIS)",
     "wof:parent_id": 1914601003,
     "wof:placetype": "custom",

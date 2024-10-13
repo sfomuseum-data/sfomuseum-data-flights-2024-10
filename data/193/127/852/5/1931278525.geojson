@@ -2,10 +2,12 @@
   "id": 1931278525,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-13",
+    "date:cessation_upper": "2024-10-13",
     "date:inception_lower": "2024-10-12",
     "date:inception_upper": "2024-10-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-12",
+    "edtf:cessation": "2024-10-13T00:34:00Z",
+    "edtf:inception": "2024-10-12T20:56:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102536579,
     "sfomuseum:base_flight_id": "20241012-D-ACA-5402",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N480UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100657328"
+    },
     "wof:country": "US",
     "wof:created": 1728837848,
     "wof:geomhash": "01999c4327be8e36df88ffd5cda77111",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1914601063,
-      1159283597
+      1159283597,
+      1159292085
     ],
-    "wof:lastmodified": 1728837848,
+    "wof:lastmodified": 1728838038,
     "wof:name": "UA821 (SFO-MEX)",
     "wof:parent_id": 1914601063,
     "wof:placetype": "custom",

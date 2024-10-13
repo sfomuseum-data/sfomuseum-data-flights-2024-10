@@ -2,10 +2,12 @@
   "id": 1931273223,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-12",
+    "date:cessation_upper": "2024-10-12",
     "date:inception_lower": "2024-10-12",
     "date:inception_upper": "2024-10-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-12",
+    "edtf:cessation": "2024-10-12T23:07:09Z",
+    "edtf:inception": "2024-10-12T12:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "IB",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -62.966477499999996,
     "iata:airline": "IB",
     "iata:base_airline": "",
+    "icao:aircraft": "A359",
     "icao:airline": "IBE",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159284511,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241012-A-AAL-8824",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "ECNGT",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100598987"
+    },
     "wof:country": "US",
     "wof:created": 1728836057,
     "wof:geomhash": "e381de006a7d8b2da90b8f820c28ec9b",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931273223,
     "wof:involves": [
+      1377564293,
       102527513,
       102545773,
       1159284511,
       1914601029,
       1159283849
     ],
-    "wof:lastmodified": 1728836057,
+    "wof:lastmodified": 1728838007,
     "wof:name": "IB6193 (MAD-SFO)",
     "wof:parent_id": 1914601029,
     "wof:placetype": "custom",

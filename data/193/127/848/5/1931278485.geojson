@@ -2,10 +2,12 @@
   "id": 1931278485,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-13",
+    "date:cessation_upper": "2024-10-13",
     "date:inception_lower": "2024-10-12",
     "date:inception_upper": "2024-10-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-12",
+    "edtf:cessation": "2024-10-13T05:12:00Z",
+    "edtf:inception": "2024-10-12T14:31:26-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:base_flight_id": "20241012-D-ACA-5608",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37522",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -88,13 +98,14 @@
     ],
     "wof:id": 1931278485,
     "wof:involves": [
-      102528997,
       102527513,
       1159285413,
       1914601075,
-      1159283597
+      1159283597,
+      1528104577,
+      102528997
     ],
-    "wof:lastmodified": 1728837834,
+    "wof:lastmodified": 1728838037,
     "wof:name": "UA623 (SFO-SAN)",
     "wof:parent_id": 1914601075,
     "wof:placetype": "custom",

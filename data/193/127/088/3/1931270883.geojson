@@ -2,10 +2,12 @@
   "id": 1931270883,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-12",
+    "date:cessation_upper": "2024-10-12",
     "date:inception_lower": "2024-10-12",
     "date:inception_upper": "2024-10-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-12",
+    "edtf:cessation": "2024-10-12T03:07:04-07:00",
+    "edtf:inception": "2024-10-12T13:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "GLO",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241012-A-GLO-6290",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N167US",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100611317",
+      "swim:gufi": "KF43259700"
+    },
     "wof:country": "US",
     "wof:created": 1728835271,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1931270883,
     "wof:involves": [
+      1159289411,
       102527513,
       102528541,
       1159283849,
       1914601227,
       1779770725
     ],
-    "wof:lastmodified": 1728835271,
+    "wof:lastmodified": 1728837999,
     "wof:name": "AA1610 (DFW-SFO)",
     "wof:parent_id": 1914601227,
     "wof:placetype": "custom",
