@@ -1,0 +1,72 @@
+{
+  "id": 1931273015,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-10-12",
+    "date:inception_upper": "2024-10-12",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-10-12",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "F8",
+    "flysfo:date": "2024-10-12",
+    "flysfo:estimated_timestamp": 1728751500,
+    "flysfo:event": "A",
+    "flysfo:flight_number": "F89999",
+    "flysfo:gate": "",
+    "flysfo:journey": "HKG-SFO",
+    "flysfo:scheduled_timestamp": 1728744300,
+    "flysfo:timestamp": 1728751500,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,22.307471,113.927436,37.617990",
+    "geom:latitude": 29.9627305,
+    "geom:longitude": -4.221753499999998,
+    "iata:airline": "F8",
+    "icao:airline": "FLE",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1763552143,
+    "sfomuseum:arrival_id": 102527513,
+    "sfomuseum:departure_id": 102541737,
+    "sfomuseum:flight_id": "20241012-A-FLE-9999",
+    "sfomuseum:flight_number": [
+      "FLE9999",
+      "F89999"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1728835992,
+    "wof:geomhash": "300aa0b6d6fd1fa7d09bf740f0e0c265",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1931273015,
+        "flight_id": 1931273015
+      }
+    ],
+    "wof:id": 1931273015,
+    "wof:involves": [
+      102527513,
+      102541737,
+      1763552143,
+      -1
+    ],
+    "wof:lastmodified": 1728835992,
+    "wof:name": "F89999 (HKG-SFO)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-10",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    22.307471,
+    113.927436,
+    37.61799
+  ],
+  "geometry": {"coordinates":[[113.927436,22.307471],[-122.370943,37.61799]],"type":"MultiPoint"}
+}
