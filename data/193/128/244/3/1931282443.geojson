@@ -2,10 +2,12 @@
   "id": 1931282443,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-13",
-    "date:inception_upper": "2024-10-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-13",
+    "date:cessation_lower": "2024-10-13",
+    "date:cessation_upper": "2024-10-13",
+    "date:inception_lower": "2024-10-14",
+    "date:inception_upper": "2024-10-14",
+    "edtf:cessation": "2024-10-13T14:12:08-07:00",
+    "edtf:inception": "2024-10-14T00:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.7258735,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241013-A-ACA-3480",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N444UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100763533",
+      "swim:gufi": "KL09790200"
+    },
     "wof:country": "US",
     "wof:created": 1728922883,
     "wof:geomhash": "4224d1c4c9907a232ddfbf90e60373e4",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1931282443,
     "wof:involves": [
+      1159292085,
       102527513,
       102536579,
       1159285413,
       1914601075,
       1159283597
     ],
-    "wof:lastmodified": 1728922883,
+    "wof:lastmodified": 1728924798,
     "wof:name": "UA1272 (MEX-SFO)",
     "wof:parent_id": 1914601075,
     "wof:placetype": "custom",

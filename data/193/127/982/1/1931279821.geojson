@@ -2,10 +2,12 @@
   "id": 1931279821,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-13",
+    "date:cessation_upper": "2024-10-13",
     "date:inception_lower": "2024-10-13",
     "date:inception_upper": "2024-10-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-13",
+    "edtf:cessation": "2024-10-13T19:10:11Z",
+    "edtf:inception": "2024-10-13T06:55:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "NZ",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": 26.208867500000004,
     "iata:airline": "NZ",
     "iata:base_airline": "",
+    "icao:aircraft": "B77W",
     "icao:airline": "ANZ",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618057,
     "lbl:longitude": -122.392508,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159283697,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241013-A-ACA-6103",
@@ -39,6 +43,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +60,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100691915"
+    },
     "wof:country": "US",
     "wof:created": 1728921976,
     "wof:geomhash": "07839d38a937070012f963bfe77eb5da",
@@ -88,13 +98,14 @@
     ],
     "wof:id": 1931279821,
     "wof:involves": [
+      1914601087,
+      1159283597,
+      1159289993,
       102527513,
       102552389,
-      1159283697,
-      1914601087,
-      1159283597
+      1159283697
     ],
-    "wof:lastmodified": 1728921976,
+    "wof:lastmodified": 1728924793,
     "wof:name": "NZ8 (AKL-SFO)",
     "wof:parent_id": 1914601087,
     "wof:placetype": "custom",
