@@ -2,10 +2,12 @@
   "id": 1931296115,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-16",
+    "date:cessation_upper": "2024-10-16",
     "date:inception_lower": "2024-10-15",
     "date:inception_upper": "2024-10-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-15",
+    "edtf:cessation": "2024-10-16T03:38:00Z",
+    "edtf:inception": "2024-10-15T12:39:22-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20241015-D-AVA-2159",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N468UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO81444301"
+    },
     "wof:country": "US",
     "wof:created": 1729097309,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1914600871,
-      1159285749
+      1159285749,
+      1159292085
     ],
-    "wof:lastmodified": 1729097309,
+    "wof:lastmodified": 1729097551,
     "wof:name": "UA593 (SFO-LAX)",
     "wof:parent_id": 1914600871,
     "wof:placetype": "custom",

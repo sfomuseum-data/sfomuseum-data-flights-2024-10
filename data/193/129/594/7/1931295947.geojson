@@ -2,10 +2,12 @@
   "id": 1931295947,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-16",
+    "date:cessation_upper": "2024-10-16",
     "date:inception_lower": "2024-10-15",
     "date:inception_upper": "2024-10-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-15",
+    "edtf:cessation": "2024-10-16T03:48:00Z",
+    "edtf:inception": "2024-10-15T22:57:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-10-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.70423,
     "geom:longitude": -101.3334745,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N25201",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100995766",
+      "swim:gufi": "KO74080300"
+    },
     "wof:country": "US",
     "wof:created": 1729097250,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1931295947,
     "wof:involves": [
+      1159289871,
       102531023,
       102527513,
       1159285413,
       1914601375
     ],
-    "wof:lastmodified": 1729097250,
+    "wof:lastmodified": 1729097550,
     "wof:name": "UA3909 (SFO-MIA)",
     "wof:parent_id": 1914601375,
     "wof:placetype": "custom",
