@@ -2,10 +2,12 @@
   "id": 1931303955,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-17",
+    "date:cessation_upper": "2024-10-17",
     "date:inception_lower": "2024-10-16",
     "date:inception_upper": "2024-10-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-16",
+    "edtf:cessation": "2024-10-17T07:48:59Z",
+    "edtf:inception": "2024-10-16T20:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "TK",
     "flysfo:date": "2024-10-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.440106,
     "geom:longitude": -46.8215825,
     "iata:airline": "TK",
+    "icao:aircraft": "B789",
     "icao:airline": "THY",
     "lbl:latitude": 37.61227,
     "lbl:longitude": -122.390079,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285391,
     "sfomuseum:arrival_id": 1779770747,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "TCLLP",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101079973"
+    },
     "wof:country": "US",
     "wof:created": 1729183567,
     "wof:geomhash": "a6a2bfb09ffab4e8f937cae1c7a9329e",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1931303955,
     "wof:involves": [
+      1159293215,
       1779770747,
       102527513,
       1159285391,
       1914601031
     ],
-    "wof:lastmodified": 1729183567,
+    "wof:lastmodified": 1729184018,
     "wof:name": "TK6889 (SFO-IST)",
     "wof:parent_id": 1914601031,
     "wof:placetype": "custom",

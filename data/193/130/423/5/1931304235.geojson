@@ -2,10 +2,12 @@
   "id": 1931304235,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-16",
+    "date:cessation_upper": "2024-10-16",
     "date:inception_lower": "2024-10-16",
     "date:inception_upper": "2024-10-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-16",
+    "edtf:cessation": "2024-10-16T18:21:00Z",
+    "edtf:inception": "2024-10-16T02:11:18-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.1959315,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102554947,
     "sfomuseum:base_flight_id": "20241016-D-ANZ-9882",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N805UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100987605",
+      "swim:gufi": "KO53753400"
+    },
     "wof:country": "US",
     "wof:created": 1729183663,
     "wof:geomhash": "a7dd599440af55c5534b52449c3164ed",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931304235,
     "wof:involves": [
-      102554947,
       102527513,
       1159285413,
       1914601363,
-      1159283697
+      1159283697,
+      1159289407,
+      102554947
     ],
-    "wof:lastmodified": 1729183663,
+    "wof:lastmodified": 1729184020,
     "wof:name": "UA205 (SFO-YYC)",
     "wof:parent_id": 1914601363,
     "wof:placetype": "custom",

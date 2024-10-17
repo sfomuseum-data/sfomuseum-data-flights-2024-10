@@ -2,10 +2,12 @@
   "id": 1931300241,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-16",
+    "date:cessation_upper": "2024-10-16",
     "date:inception_lower": "2024-10-16",
     "date:inception_upper": "2024-10-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-16",
+    "edtf:cessation": "2024-10-16T09:37:57-07:00",
+    "edtf:inception": "2024-10-16T12:23:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -56.9056255,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.617321,
     "lbl:longitude": -122.389477,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241016-A-ACA-4063",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N76010",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100964428",
+      "swim:gufi": "KS76974400"
+    },
     "wof:country": "US",
     "wof:created": 1729182212,
     "wof:geomhash": "59c1b41e582a5fde12da38b49a2c462f",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1931300241,
     "wof:involves": [
+      1914601061,
+      1159283597,
+      1159289985,
       102527513,
       102553957,
-      1159285413,
-      1914601061,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1729182212,
+    "wof:lastmodified": 1729183988,
     "wof:name": "UA45 (ZRH-SFO)",
     "wof:parent_id": 1914601061,
     "wof:placetype": "custom",

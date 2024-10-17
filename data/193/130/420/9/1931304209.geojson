@@ -2,10 +2,12 @@
   "id": 1931304209,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-17",
+    "date:cessation_upper": "2024-10-17",
     "date:inception_lower": "2024-10-16",
     "date:inception_upper": "2024-10-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-16",
+    "edtf:cessation": "2024-10-17T01:31:00Z",
+    "edtf:inception": "2024-10-16T10:21:03-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "UAE",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533927,
     "sfomuseum:base_flight_id": "20241016-D-UAE-6361",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N801UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO78194400"
+    },
     "wof:country": "US",
     "wof:created": 1729183655,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931304209,
     "wof:involves": [
+      1914601379,
+      1159284333,
+      1159289407,
       102533927,
       102527513,
-      1159285413,
-      1914601379,
-      1159284333
+      1159285413
     ],
-    "wof:lastmodified": 1729183655,
+    "wof:lastmodified": 1729184020,
     "wof:name": "UA1964 (SFO-EUG)",
     "wof:parent_id": 1914601379,
     "wof:placetype": "custom",

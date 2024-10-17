@@ -2,10 +2,12 @@
   "id": 1931298545,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-16",
-    "date:inception_upper": "2024-10-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-16",
+    "date:cessation_lower": "2024-10-16",
+    "date:cessation_upper": "2024-10-16",
+    "date:inception_lower": "2024-10-17",
+    "date:inception_upper": "2024-10-17",
+    "edtf:cessation": "2024-10-16T11:26:27-07:00",
+    "edtf:inception": "2024-10-17T00:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "icao:base_airline": "ITY",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241016-A-ITY-3204",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N925DZ",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100942287",
+      "swim:gufi": "KL85254400"
+    },
     "wof:country": "US",
     "wof:created": 1729181575,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1931298545,
     "wof:involves": [
+      1377564285,
       102527513,
       102533795,
       1159284261,
       1914601433,
       1763699293
     ],
-    "wof:lastmodified": 1729181575,
+    "wof:lastmodified": 1729184000,
     "wof:name": "DL1559 (LAX-SFO)",
     "wof:parent_id": 1914601433,
     "wof:placetype": "custom",

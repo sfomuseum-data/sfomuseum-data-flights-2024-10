@@ -2,10 +2,12 @@
   "id": 1931300275,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-16",
+    "date:cessation_upper": "2024-10-16",
     "date:inception_lower": "2024-10-16",
     "date:inception_upper": "2024-10-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-16",
+    "edtf:cessation": "2024-10-16T00:14:39-07:00",
+    "edtf:inception": "2024-10-16T12:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -114.4957645,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241016-A-ACA-4033",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N478UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100966074",
+      "swim:gufi": "KA31721400"
+    },
     "wof:country": "US",
     "wof:created": 1729182225,
     "wof:geomhash": "8fe6791c85dc44fbddffd72416ea0024",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1931300275,
     "wof:involves": [
+      1914600851,
+      1159283597,
+      1159292085,
       102527513,
       102529173,
-      1159285413,
-      1914600851,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1729182225,
+    "wof:lastmodified": 1729183988,
     "wof:name": "UA487 (ABQ-SFO)",
     "wof:parent_id": 1914600851,
     "wof:placetype": "custom",

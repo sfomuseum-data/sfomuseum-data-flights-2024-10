@@ -2,10 +2,12 @@
   "id": 1931304333,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2024-10-16",
     "date:inception_upper": "2024-10-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-16",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2024-10-16T11:48:51-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534097,
     "sfomuseum:base_flight_id": "20241016-D-ANZ-9199",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N69830",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -88,13 +96,14 @@
     ],
     "wof:id": 1931304333,
     "wof:involves": [
+      1159283697,
+      1377564285,
       102534097,
       102527513,
       1159285413,
-      1914601373,
-      1159283697
+      1914601373
     ],
-    "wof:lastmodified": 1729183701,
+    "wof:lastmodified": 1729184021,
     "wof:name": "UA2633 (SFO-IAH)",
     "wof:parent_id": 1914601373,
     "wof:placetype": "custom",

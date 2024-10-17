@@ -2,10 +2,12 @@
   "id": 1931302131,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-16",
+    "date:cessation_upper": "2024-10-16",
     "date:inception_lower": "2024-10-16",
     "date:inception_upper": "2024-10-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-16",
+    "edtf:cessation": "2024-10-16T17:52:48Z",
+    "edtf:inception": "2024-10-16T15:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -116.044202,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102536441,
     "sfomuseum:base_flight_id": "20241016-D-AAL-9429",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N296AK",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "100981391"
+    },
     "wof:country": "US",
     "wof:created": 1729182905,
     "wof:geomhash": "7babf6b9ba279da48525185e0724d212",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931302131,
     "wof:involves": [
+      1377564285,
       102536441,
       102527513,
       1159283813,
       1914601205,
       1159283849
     ],
-    "wof:lastmodified": 1729182905,
+    "wof:lastmodified": 1729184004,
     "wof:name": "AS1428 (SFO-SJD)",
     "wof:parent_id": 1914601205,
     "wof:placetype": "custom",
