@@ -2,10 +2,12 @@
   "id": 1931309201,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-17",
+    "date:cessation_upper": "2024-10-17",
     "date:inception_lower": "2024-10-17",
     "date:inception_upper": "2024-10-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-17",
+    "edtf:cessation": "2024-10-17T03:24:01-07:00",
+    "edtf:inception": "2024-10-17T12:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.2742345,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.617321,
     "lbl:longitude": -122.389477,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241017-A-ANA-7007",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N204UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101055965",
+      "swim:gufi": "KN30350500"
+    },
     "wof:country": "US",
     "wof:created": 1729268813,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -92,9 +106,10 @@
       102530049,
       1159285413,
       1914601061,
-      1159283875
+      1159283875,
+      1159289985
     ],
-    "wof:lastmodified": 1729268813,
+    "wof:lastmodified": 1729270718,
     "wof:name": "UA650 (EWR-SFO)",
     "wof:parent_id": 1914601061,
     "wof:placetype": "custom",

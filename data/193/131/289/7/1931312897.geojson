@@ -2,10 +2,12 @@
   "id": 1931312897,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-17",
-    "date:inception_upper": "2024-10-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-17",
+    "date:cessation_lower": "2024-10-18",
+    "date:cessation_upper": "2024-10-18",
+    "date:inception_lower": "2024-10-18",
+    "date:inception_upper": "2024-10-18",
+    "edtf:cessation": "2024-10-18T21:19:59Z",
+    "edtf:inception": "2024-10-18T05:21:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SQ",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -9.197052,
     "iata:airline": "SQ",
     "iata:base_airline": "",
+    "icao:aircraft": "A359",
     "icao:airline": "SIA",
     "icao:base_airline": "VTI",
     "lbl:latitude": 37.618209,
     "lbl:longitude": -122.391665,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159286259,
     "sfomuseum:arrival_id": 102551593,
     "sfomuseum:base_flight_id": "20241017-D-VTI-8033",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "9VSJG",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101047355"
+    },
     "wof:country": "US",
     "wof:created": 1729270161,
     "wof:geomhash": "998e7b0d931c2ad5e41dcc1541aaab60",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1931312897,
     "wof:involves": [
+      1914601069,
+      1930448551,
+      1377564293,
       102551593,
       102527513,
-      1159286259,
-      1914601069,
-      1930448551
+      1159286259
     ],
-    "wof:lastmodified": 1729270161,
+    "wof:lastmodified": 1729270697,
     "wof:name": "SQ33 (SFO-SIN)",
     "wof:parent_id": 1914601069,
     "wof:placetype": "custom",

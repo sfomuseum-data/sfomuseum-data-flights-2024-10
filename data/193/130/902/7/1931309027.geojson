@@ -2,10 +2,12 @@
   "id": 1931309027,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-17",
+    "date:cessation_upper": "2024-10-17",
     "date:inception_lower": "2024-10-17",
     "date:inception_upper": "2024-10-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-17",
+    "edtf:cessation": "2024-10-17T12:24:26-07:00",
+    "edtf:inception": "2024-10-17T22:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -107.78563,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241017-A-ANZ-9438",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N463UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101123776",
+      "swim:gufi": "KP70839500"
+    },
     "wof:country": "US",
     "wof:created": 1729268753,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -92,9 +106,10 @@
       102531131,
       1159285413,
       1914600871,
-      1159283697
+      1159283697,
+      1159292085
     ],
-    "wof:lastmodified": 1729268753,
+    "wof:lastmodified": 1729270716,
     "wof:name": "UA467 (MSP-SFO)",
     "wof:parent_id": 1914600871,
     "wof:placetype": "custom",

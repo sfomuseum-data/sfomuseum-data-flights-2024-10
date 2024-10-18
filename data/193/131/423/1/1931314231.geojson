@@ -2,10 +2,12 @@
   "id": 1931314231,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-17",
+    "date:cessation_upper": "2024-10-17",
     "date:inception_lower": "2024-10-17",
     "date:inception_upper": "2024-10-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-17",
+    "edtf:cessation": "2024-10-17T23:19:16Z",
+    "edtf:inception": "2024-10-17T21:03:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.1959315,
     "iata:airline": "WS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "WJA",
     "icao:base_airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285523,
     "sfomuseum:arrival_id": 102554947,
     "sfomuseum:base_flight_id": "20241017-D-DAL-6933",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CGWSA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101106281"
+    },
     "wof:country": "US",
     "wof:created": 1729270640,
     "wof:geomhash": "a7dd599440af55c5534b52449c3164ed",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931314231,
     "wof:involves": [
-      102554947,
       102527513,
       1159285523,
       1914601313,
-      1159284261
+      1159284261,
+      1159289871,
+      102554947
     ],
-    "wof:lastmodified": 1729270640,
+    "wof:lastmodified": 1729270717,
     "wof:name": "WS1509 (SFO-YYC)",
     "wof:parent_id": 1914601313,
     "wof:placetype": "custom",
