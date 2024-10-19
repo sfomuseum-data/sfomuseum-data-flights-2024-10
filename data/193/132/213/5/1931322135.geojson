@@ -2,10 +2,12 @@
   "id": 1931322135,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-19",
+    "date:cessation_upper": "2024-10-19",
     "date:inception_lower": "2024-10-18",
     "date:inception_upper": "2024-10-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-18",
+    "edtf:cessation": "2024-10-19T05:15:00Z",
+    "edtf:inception": "2024-10-18T07:31:11-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-10-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 10.0222635,
     "geom:longitude": -135.9940435,
     "iata:airline": "UA",
+    "icao:aircraft": "B789",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617458,
     "lbl:longitude": -122.391079,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102558779,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N26970",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +58,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101212912",
+      "swim:gufi": "KO64413600"
+    },
     "wof:country": "US",
     "wof:created": 1729356407,
     "wof:geomhash": "f971d3f872ee602b2fa6051cf4be0e69",
@@ -83,12 +97,13 @@
     ],
     "wof:id": 1931322135,
     "wof:involves": [
+      1159293215,
       102558779,
       102527513,
       1159285413,
       1914601063
     ],
-    "wof:lastmodified": 1729356407,
+    "wof:lastmodified": 1729356814,
     "wof:name": "UA115 (SFO-PPT)",
     "wof:parent_id": 1914601063,
     "wof:placetype": "custom",

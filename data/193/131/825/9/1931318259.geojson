@@ -2,10 +2,12 @@
   "id": 1931318259,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-19",
+    "date:cessation_upper": "2024-10-19",
     "date:inception_lower": "2024-10-18",
     "date:inception_upper": "2024-10-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-18",
+    "edtf:cessation": "2024-10-19T02:59:00Z",
+    "edtf:inception": "2024-10-18T23:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-10-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.180931,
     "geom:longitude": -106.3692875,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 1746879059,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N843UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "101230035",
+      "swim:gufi": "KK73659600"
+    },
     "wof:country": "US",
     "wof:created": 1729355073,
     "wof:geomhash": "5aed0915f9f8845326df52b0d348a4b7",
@@ -46,12 +59,12 @@
     ],
     "wof:id": 1931318259,
     "wof:involves": [
+      1159289407,
       102527513,
       1746879059,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1729355073,
+    "wof:lastmodified": 1729356832,
     "wof:name": "UA8144 (STL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

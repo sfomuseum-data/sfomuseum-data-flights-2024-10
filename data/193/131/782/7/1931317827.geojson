@@ -2,10 +2,12 @@
   "id": 1931317827,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-18",
+    "date:cessation_upper": "2024-10-18",
     "date:inception_lower": "2024-10-18",
     "date:inception_upper": "2024-10-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-18",
+    "edtf:cessation": "2024-10-18T07:49:09-07:00",
+    "edtf:inception": "2024-10-18T20:12:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "UAE",
     "lbl:latitude": 37.621173,
     "lbl:longitude": -122.390131,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241018-A-UAE-6489",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N14214",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101209238",
+      "swim:gufi": "KS61085600"
+    },
     "wof:country": "US",
     "wof:created": 1729354922,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1931317827,
     "wof:involves": [
-      102527513,
       102533269,
       1159285413,
       1914600875,
-      1159284333
+      1159284333,
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1729354922,
+    "wof:lastmodified": 1729356828,
     "wof:name": "UA1964 (SEA-SFO)",
     "wof:parent_id": 1914600875,
     "wof:placetype": "custom",

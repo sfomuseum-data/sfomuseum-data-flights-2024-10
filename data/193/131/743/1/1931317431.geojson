@@ -2,10 +2,12 @@
   "id": 1931317431,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-19",
+    "date:cessation_upper": "2024-10-19",
     "date:inception_lower": "2024-10-18",
     "date:inception_upper": "2024-10-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-18",
+    "edtf:cessation": "2024-10-19T02:43:49Z",
+    "edtf:inception": "2024-10-18T12:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SQ",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -9.197052,
     "iata:airline": "SQ",
     "iata:base_airline": "",
+    "icao:aircraft": "A359",
     "icao:airline": "SIA",
     "icao:base_airline": "VTI",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1159286259,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241018-A-VTI-8034",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101159277"
+    },
     "wof:country": "US",
     "wof:created": 1729354780,
     "wof:geomhash": "b883d8e3c3c604f714c4dc756f6c1133",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1931317431,
     "wof:involves": [
+      1930448551,
+      1377564293,
       102527513,
       102551593,
       1159286259,
-      1914601065,
-      1930448551
+      1914601065
     ],
-    "wof:lastmodified": 1729354780,
+    "wof:lastmodified": 1729356823,
     "wof:name": "SQ34 (SIN-SFO)",
     "wof:parent_id": 1914601065,
     "wof:placetype": "custom",
