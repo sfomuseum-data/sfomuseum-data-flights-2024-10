@@ -2,10 +2,12 @@
   "id": 1931327287,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-19",
+    "date:cessation_upper": "2024-10-19",
     "date:inception_lower": "2024-10-19",
     "date:inception_upper": "2024-10-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-19",
+    "edtf:cessation": "2024-10-19T20:31:00Z",
+    "edtf:inception": "2024-10-19T03:24:57-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "FIN",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102528541,
     "sfomuseum:base_flight_id": "20241019-D-FIN-5711",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N997AA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101289743",
+      "swim:gufi": "KO56577700"
+    },
     "wof:country": "US",
     "wof:created": 1729441530,
     "wof:geomhash": "5e0f3a871c366f60ae43a6e5fe25b717",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1931327287,
     "wof:involves": [
-      102528541,
       102527513,
       1159283849,
       1914601235,
-      1159284389
+      1159284389,
+      1159289411,
+      102528541
     ],
-    "wof:lastmodified": 1729441530,
+    "wof:lastmodified": 1729442889,
     "wof:name": "AA2116 (SFO-DFW)",
     "wof:parent_id": 1914601235,
     "wof:placetype": "custom",

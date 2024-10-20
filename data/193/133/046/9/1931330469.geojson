@@ -2,10 +2,12 @@
   "id": 1931330469,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-20",
+    "date:cessation_upper": "2024-10-20",
     "date:inception_lower": "2024-10-19",
     "date:inception_upper": "2024-10-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-19",
+    "edtf:cessation": "2024-10-20T01:45:08Z",
+    "edtf:inception": "2024-10-19T21:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:base_flight_id": "20241019-D-ACA-5196",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N27546",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101317085",
+      "swim:gufi": "KO69473700"
+    },
     "wof:country": "US",
     "wof:created": 1729442599,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1931330469,
     "wof:involves": [
+      1159283597,
+      1528104577,
       102533631,
       102527513,
       1159285413,
-      1914600867,
-      1159283597
+      1914600867
     ],
-    "wof:lastmodified": 1729442599,
+    "wof:lastmodified": 1729442872,
     "wof:name": "UA2386 (SFO-ORD)",
     "wof:parent_id": 1914600867,
     "wof:placetype": "custom",
