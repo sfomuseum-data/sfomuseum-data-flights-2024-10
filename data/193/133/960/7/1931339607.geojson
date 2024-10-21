@@ -2,10 +2,12 @@
   "id": 1931339607,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-20",
+    "date:cessation_upper": "2024-10-20",
     "date:inception_lower": "2024-10-20",
     "date:inception_upper": "2024-10-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-20",
+    "edtf:cessation": "2024-10-20T19:08:07Z",
+    "edtf:inception": "2024-10-20T04:04:35-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534161,
     "sfomuseum:base_flight_id": "20241020-D-ACA-4518",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N27287",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101379049",
+      "swim:gufi": "KO55662100"
+    },
     "wof:country": "US",
     "wof:created": 1729529420,
     "wof:geomhash": "b700d5ae3794da4176af6b85f6cd6669",
@@ -92,9 +106,10 @@
       102527513,
       1159285413,
       1914601363,
-      1159283597
+      1159283597,
+      1528104575
     ],
-    "wof:lastmodified": 1729529420,
+    "wof:lastmodified": 1729529717,
     "wof:name": "UA500 (SFO-SNA)",
     "wof:parent_id": 1914601363,
     "wof:placetype": "custom",

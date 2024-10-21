@@ -2,10 +2,12 @@
   "id": 1931332521,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-20",
+    "date:cessation_upper": "2024-10-20",
     "date:inception_lower": "2024-10-20",
     "date:inception_upper": "2024-10-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-20",
+    "edtf:cessation": "2024-10-20T04:48:43-07:00",
+    "edtf:inception": "2024-10-20T17:29:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -118.7636915,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241020-A-AAL-9412",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N294AK",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101374377",
+      "swim:gufi": "KL57912100"
+    },
     "wof:country": "US",
     "wof:created": 1729526968,
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
@@ -92,9 +105,10 @@
       102527209,
       1159283813,
       1914601219,
-      1159283849
+      1159283849,
+      1377564285
     ],
-    "wof:lastmodified": 1729526968,
+    "wof:lastmodified": 1729529721,
     "wof:name": "AS138 (LAS-SFO)",
     "wof:parent_id": 1914601219,
     "wof:placetype": "custom",

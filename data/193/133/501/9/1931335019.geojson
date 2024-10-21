@@ -2,10 +2,12 @@
   "id": 1931335019,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-20",
+    "date:cessation_upper": "2024-10-20",
     "date:inception_lower": "2024-10-20",
     "date:inception_upper": "2024-10-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-20",
+    "edtf:cessation": "2024-10-20T22:58:00Z",
+    "edtf:inception": "2024-10-20T18:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-10-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533997,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +56,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101381326",
+      "swim:gufi": "KO77380100"
+    },
     "wof:country": "US",
     "wof:created": 1729527848,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -83,12 +95,13 @@
     ],
     "wof:id": 1931335019,
     "wof:involves": [
-      102527513,
       102533997,
       1159285413,
-      1914600931
+      1914600931,
+      1159289871,
+      102527513
     ],
-    "wof:lastmodified": 1729527848,
+    "wof:lastmodified": 1729529691,
     "wof:name": "UA3845 (HNL-SFO)",
     "wof:parent_id": 1914600931,
     "wof:placetype": "custom",

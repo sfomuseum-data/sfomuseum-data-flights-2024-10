@@ -2,10 +2,12 @@
   "id": 1931332623,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-20",
+    "date:cessation_upper": "2024-10-20",
     "date:inception_lower": "2024-10-20",
     "date:inception_upper": "2024-10-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-20",
+    "edtf:cessation": "2024-10-20T04:14:23-07:00",
+    "edtf:inception": "2024-10-20T13:16:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.9123225,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241020-A-AAL-7437",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N948AK",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101353602"
+    },
     "wof:country": "US",
     "wof:created": 1729527005,
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931332623,
     "wof:involves": [
-      102527513,
-      102528817,
       1159283813,
       1914601209,
-      1159283849
+      1159283849,
+      1528104577,
+      102527513,
+      102528817
     ],
-    "wof:lastmodified": 1729527005,
+    "wof:lastmodified": 1729529680,
     "wof:name": "AS435 (IAD-SFO)",
     "wof:parent_id": 1914601209,
     "wof:placetype": "custom",

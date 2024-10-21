@@ -2,10 +2,12 @@
   "id": 1931339561,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-20",
+    "date:cessation_upper": "2024-10-20",
     "date:inception_lower": "2024-10-20",
     "date:inception_upper": "2024-10-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-20",
+    "edtf:cessation": "2024-10-20T21:45:00Z",
+    "edtf:inception": "2024-10-20T21:28:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-10-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.490859,
     "geom:longitude": -122.14984899999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620929,
     "lbl:longitude": -122.390272,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527529,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2747U",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101399802",
+      "swim:gufi": "KO60850100"
+    },
     "wof:country": "US",
     "wof:created": 1729529405,
     "wof:geomhash": "9e57705c73bd73668d4b0d529a043646",
@@ -83,12 +96,13 @@
     ],
     "wof:id": 1931339561,
     "wof:involves": [
+      1159289993,
       102527529,
       102527513,
       1159285413,
       1914600871
     ],
-    "wof:lastmodified": 1729529405,
+    "wof:lastmodified": 1729529729,
     "wof:name": "UA3774 (SFO-SJC)",
     "wof:parent_id": 1914600871,
     "wof:placetype": "custom",

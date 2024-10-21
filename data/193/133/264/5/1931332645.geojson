@@ -2,10 +2,12 @@
   "id": 1931332645,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-20",
-    "date:inception_upper": "2024-10-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-20",
+    "date:cessation_lower": "2024-10-21",
+    "date:cessation_upper": "2024-10-21",
+    "date:inception_lower": "2024-10-21",
+    "date:inception_upper": "2024-10-21",
+    "edtf:cessation": "2024-10-21T04:32:10Z",
+    "edtf:inception": "2024-10-21T03:27:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.778435,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241020-A-AAL-9305",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N428AS",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101332619"
+    },
     "wof:country": "US",
     "wof:created": 1729527014,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -88,13 +99,14 @@
     ],
     "wof:id": 1931332645,
     "wof:involves": [
-      102527513,
-      102528997,
       1159283813,
       1914601223,
-      1159283849
+      1159283849,
+      1377564285,
+      102527513,
+      102528997
     ],
-    "wof:lastmodified": 1729527014,
+    "wof:lastmodified": 1729529680,
     "wof:name": "AS717 (SAN-SFO)",
     "wof:parent_id": 1914601223,
     "wof:placetype": "custom",
