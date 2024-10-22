@@ -2,10 +2,12 @@
   "id": 1931346683,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-22",
+    "date:cessation_upper": "2024-10-22",
     "date:inception_lower": "2024-10-21",
     "date:inception_upper": "2024-10-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-21",
+    "edtf:cessation": "2024-10-22T02:51:35Z",
+    "edtf:inception": "2024-10-21T22:46:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "DAL",
     "icao:base_airline": "VIR",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102526927,
     "sfomuseum:base_flight_id": "20241021-D-VIR-5348",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N582NW",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101494075",
+      "swim:gufi": "KO78042200"
+    },
     "wof:country": "US",
     "wof:created": 1729615102,
     "wof:geomhash": "8306f5516cededf93440c49d2c7be198",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931346683,
     "wof:involves": [
-      102526927,
-      102527513,
       1159284261,
       1914601431,
-      1159285483
+      1159285483,
+      1159289945,
+      102526927,
+      102527513
     ],
-    "wof:lastmodified": 1729615102,
+    "wof:lastmodified": 1729616027,
     "wof:name": "DL533 (SFO-ATL)",
     "wof:parent_id": 1914601431,
     "wof:placetype": "custom",
