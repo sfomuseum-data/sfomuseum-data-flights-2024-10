@@ -2,10 +2,12 @@
   "id": 1931353151,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-22",
+    "date:cessation_upper": "2024-10-22",
     "date:inception_lower": "2024-10-22",
     "date:inception_upper": "2024-10-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-22",
+    "edtf:cessation": "2024-10-22T23:55:00Z",
+    "edtf:inception": "2024-10-22T19:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241022-A-ACA-5081",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N44501",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101566313"
+    },
     "wof:country": "US",
     "wof:created": 1729700642,
     "wof:geomhash": "81d390dcf2582f737869c573200abb8f",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1931353151,
     "wof:involves": [
+      1914601375,
+      1159283597,
+      1159289411,
       102527513,
       102533631,
-      1159285413,
-      1914601375,
-      1159283597
+      1159285413
     ],
-    "wof:lastmodified": 1729700642,
+    "wof:lastmodified": 1729702296,
     "wof:name": "UA623 (ORD-SFO)",
     "wof:parent_id": 1914601375,
     "wof:placetype": "custom",

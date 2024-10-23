@@ -2,10 +2,12 @@
   "id": 1931354317,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-23",
+    "date:cessation_upper": "2024-10-23",
     "date:inception_lower": "2024-10-22",
     "date:inception_upper": "2024-10-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-22",
+    "edtf:cessation": "2024-10-23T02:20:01Z",
+    "edtf:inception": "2024-10-22T22:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AM",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -110.7258735,
     "iata:airline": "AM",
     "iata:base_airline": "",
+    "icao:aircraft": "B38M",
     "icao:airline": "AMX",
     "icao:base_airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283539,
     "sfomuseum:arrival_id": 102536579,
     "sfomuseum:base_flight_id": "20241022-D-DAL-8014",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "EIGZE",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101584130"
+    },
     "wof:country": "US",
     "wof:created": 1729701037,
     "wof:geomhash": "01999c4327be8e36df88ffd5cda77111",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1931354317,
     "wof:involves": [
-      102536579,
-      102527513,
       1159283539,
       1914601007,
-      1159284261
+      1159284261,
+      1528104575,
+      102536579,
+      102527513
     ],
-    "wof:lastmodified": 1729701037,
+    "wof:lastmodified": 1729702277,
     "wof:name": "AM669 (SFO-MEX)",
     "wof:parent_id": 1914601007,
     "wof:placetype": "custom",
