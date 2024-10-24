@@ -2,10 +2,12 @@
   "id": 1931365339,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-23",
+    "date:cessation_upper": "2024-10-23",
     "date:inception_lower": "2024-10-23",
     "date:inception_upper": "2024-10-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-23",
+    "edtf:cessation": "2024-10-23T20:00:00Z",
+    "edtf:inception": "2024-10-23T03:02:14-07:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -108.5435595,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533051,
     "sfomuseum:base_flight_id": "20241023-D-ANZ-9503",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N873UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +63,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101641280",
+      "swim:gufi": "KO51893400"
+    },
     "wof:country": "US",
     "wof:created": 1729788448,
     "wof:geomhash": "b03a18c879ef85a5ca01fa93c99f372c",
@@ -88,13 +102,14 @@
     ],
     "wof:id": 1931365339,
     "wof:involves": [
+      1159289407,
       102533051,
       102527513,
       1159285413,
       1914600925,
       1159283697
     ],
-    "wof:lastmodified": 1729788448,
+    "wof:lastmodified": 1729788790,
     "wof:name": "UA1939 (SFO-MCI)",
     "wof:parent_id": 1914600925,
     "wof:placetype": "custom",
