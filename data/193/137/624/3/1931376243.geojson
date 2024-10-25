@@ -1,0 +1,72 @@
+{
+  "id": 1931376243,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2024-10-24",
+    "date:inception_upper": "2024-10-24",
+    "edtf:cessation": "",
+    "edtf:inception": "2024-10-24",
+    "flysfo:actual_timestamp": -1,
+    "flysfo:airline": "WN",
+    "flysfo:date": "2024-10-24",
+    "flysfo:estimated_timestamp": 1729797540,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "WN2506",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-MDW",
+    "flysfo:scheduled_timestamp": 1729796400,
+    "flysfo:timestamp": 1729797540,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-87.745903,41.787532",
+    "geom:latitude": 39.702760999999995,
+    "geom:longitude": -105.058423,
+    "iata:airline": "WN",
+    "icao:airline": "SWA",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159285591,
+    "sfomuseum:arrival_id": 102531205,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20241024-D-SWA-2506",
+    "sfomuseum:flight_number": [
+      "SWA2506",
+      "WN2506"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1729874939,
+    "wof:geomhash": "b0d868dab19a217943f06d97e1bf7ce6",
+    "wof:hierarchy": [
+      {
+        "custom_id": 1931376243,
+        "flight_id": 1931376243
+      }
+    ],
+    "wof:id": 1931376243,
+    "wof:involves": [
+      102531205,
+      102527513,
+      1159285591,
+      -1
+    ],
+    "wof:lastmodified": 1729874939,
+    "wof:name": "WN2506 (SFO-MDW)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": [
+      "flight"
+    ],
+    "wof:repo": "sfomuseum-data-flights-2024-10",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -87.745903,
+    41.787532
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-87.745903,41.787532]],"type":"MultiPoint"}
+}
