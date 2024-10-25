@@ -2,10 +2,12 @@
   "id": 1931376599,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-24",
-    "date:inception_upper": "2024-10-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-24",
+    "date:cessation_lower": "2024-10-25",
+    "date:cessation_upper": "2024-10-25",
+    "date:inception_lower": "2024-10-25",
+    "date:inception_upper": "2024-10-25",
+    "edtf:cessation": "2024-10-25T06:38:18Z",
+    "edtf:inception": "2024-10-25T01:41:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -139.2030015,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.618149,
     "lbl:longitude": -122.381669,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532939,
     "sfomuseum:base_flight_id": "20241024-D-ACA-3528",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N37532",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,9 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101691086"
+    },
     "wof:country": "US",
     "wof:created": 1729875066,
     "wof:geomhash": "ffd2c7b34797175c51fc3517b1c4b69d",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1931376599,
     "wof:involves": [
+      1528104577,
       102532939,
       102527513,
       1159285413,
       1914601375,
       1159283597
     ],
-    "wof:lastmodified": 1729875066,
+    "wof:lastmodified": 1729875487,
     "wof:name": "UA1723 (SFO-KOA)",
     "wof:parent_id": 1914601375,
     "wof:placetype": "custom",

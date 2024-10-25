@@ -2,10 +2,12 @@
   "id": 1931376503,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-24",
+    "date:cessation_upper": "2024-10-24",
     "date:inception_lower": "2024-10-24",
     "date:inception_upper": "2024-10-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-24",
+    "edtf:cessation": "2024-10-24T21:23:00Z",
+    "edtf:inception": "2024-10-24T17:51:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "icao:base_airline": "BEL",
     "lbl:latitude": 37.621107,
     "lbl:longitude": -122.389874,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:base_flight_id": "20241024-D-BEL-8820",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N75854",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101741593",
+      "swim:gufi": "KO54089500"
+    },
     "wof:country": "US",
     "wof:created": 1729875033,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931376503,
     "wof:involves": [
+      1159289945,
       102533631,
       102527513,
       1159285413,
       1914600899,
       1377675597
     ],
-    "wof:lastmodified": 1729875033,
+    "wof:lastmodified": 1729875507,
     "wof:name": "UA1142 (SFO-ORD)",
     "wof:parent_id": 1914600899,
     "wof:placetype": "custom",
