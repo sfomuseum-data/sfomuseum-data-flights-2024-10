@@ -2,10 +2,12 @@
   "id": 1931381215,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-25",
+    "date:cessation_upper": "2024-10-25",
     "date:inception_lower": "2024-10-25",
     "date:inception_upper": "2024-10-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-25",
+    "edtf:cessation": "2024-10-25T16:23:00Z",
+    "edtf:inception": "2024-10-25T15:32:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ANA",
     "lbl:latitude": 37.620791,
     "lbl:longitude": -122.390014,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241025-A-ANA-7355",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N27477",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101828584",
+      "swim:gufi": "KL45267600"
+    },
     "wof:country": "US",
     "wof:created": 1729959795,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -92,9 +105,10 @@
       102533795,
       1159285413,
       1914600867,
-      1159283875
+      1159283875,
+      1377564285
     ],
-    "wof:lastmodified": 1729959795,
+    "wof:lastmodified": 1729961635,
     "wof:name": "UA2242 (LAX-SFO)",
     "wof:parent_id": 1914600867,
     "wof:placetype": "custom",

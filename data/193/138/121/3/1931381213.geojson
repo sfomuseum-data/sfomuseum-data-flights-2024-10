@@ -2,10 +2,12 @@
   "id": 1931381213,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-25",
+    "date:cessation_upper": "2024-10-25",
     "date:inception_lower": "2024-10-25",
     "date:inception_upper": "2024-10-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-25",
+    "edtf:cessation": "2024-10-25T22:31:00Z",
+    "edtf:inception": "2024-10-25T21:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.619197,
     "lbl:longitude": -122.384496,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241025-A-ANZ-9276",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N66893",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101866912",
+      "swim:gufi": "KL59698600"
+    },
     "wof:country": "US",
     "wof:created": 1729959795,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -88,13 +100,14 @@
     ],
     "wof:id": 1931381213,
     "wof:involves": [
+      1914600923,
+      1159283697,
+      1377564285,
       102527513,
       102533795,
-      1159285413,
-      1914600923,
-      1159283697
+      1159285413
     ],
-    "wof:lastmodified": 1729959795,
+    "wof:lastmodified": 1729961635,
     "wof:name": "UA2234 (LAX-SFO)",
     "wof:parent_id": 1914600923,
     "wof:placetype": "custom",

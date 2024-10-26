@@ -2,10 +2,12 @@
   "id": 1931381335,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-26",
+    "date:cessation_upper": "2024-10-26",
     "date:inception_lower": "2024-10-25",
     "date:inception_upper": "2024-10-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-25",
+    "edtf:cessation": "2024-10-26T02:08:00Z",
+    "edtf:inception": "2024-10-25T22:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2024-10-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.797588,
     "geom:longitude": -108.8546935,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534097,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N217UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101933826",
+      "swim:gufi": "KH69706600"
+    },
     "wof:country": "US",
     "wof:created": 1729959835,
     "wof:geomhash": "25dc9d98eae1cd54f40654c6c4fb6929",
@@ -86,9 +99,10 @@
       102527513,
       102534097,
       1159285413,
-      1914601089
+      1914601089,
+      1159289985
     ],
-    "wof:lastmodified": 1729959835,
+    "wof:lastmodified": 1729961638,
     "wof:name": "UA3920 (IAH-SFO)",
     "wof:parent_id": 1914601089,
     "wof:placetype": "custom",
