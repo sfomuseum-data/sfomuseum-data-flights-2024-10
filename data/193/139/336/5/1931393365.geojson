@@ -2,10 +2,12 @@
   "id": 1931393365,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-26",
+    "date:cessation_upper": "2024-10-26",
     "date:inception_lower": "2024-10-26",
     "date:inception_upper": "2024-10-26",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-26",
+    "edtf:cessation": "2024-10-26T10:06:12Z",
+    "edtf:inception": "2024-10-26T00:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "TP",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101881957"
+    },
     "wof:country": "US",
     "wof:created": 1730047597,
     "wof:geomhash": "d52bb0a5cfa06eebb6a938b29d78a44d",
@@ -94,7 +99,7 @@
       1914601003,
       1159284583
     ],
-    "wof:lastmodified": 1730047597,
+    "wof:lastmodified": 1730048119,
     "wof:name": "TP238 (SFO-LIS)",
     "wof:parent_id": 1914601003,
     "wof:placetype": "custom",
