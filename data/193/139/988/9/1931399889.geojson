@@ -2,10 +2,12 @@
   "id": 1931399889,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-27",
+    "date:cessation_upper": "2024-10-27",
     "date:inception_lower": "2024-10-27",
     "date:inception_upper": "2024-10-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-27",
+    "edtf:cessation": "2024-10-27T23:36:24Z",
+    "edtf:inception": "2024-10-27T22:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "CFG",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20241027-D-CFG-5053",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N962AK",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +61,9 @@
       1914601197,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83392752"
+    },
     "wof:country": "US",
     "wof:created": 1730133272,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -92,9 +103,10 @@
       102527513,
       1159283813,
       1914601237,
-      1159284193
+      1159284193,
+      1528104577
     ],
-    "wof:lastmodified": 1730133272,
+    "wof:lastmodified": 1730134377,
     "wof:name": "AS1225 (SFO-SEA)",
     "wof:parent_id": 1914601237,
     "wof:placetype": "custom",

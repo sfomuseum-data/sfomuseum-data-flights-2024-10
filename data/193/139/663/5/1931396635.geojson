@@ -2,10 +2,12 @@
   "id": 1931396635,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-27",
+    "date:cessation_upper": "2024-10-27",
     "date:inception_lower": "2024-10-27",
     "date:inception_upper": "2024-10-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-27",
+    "edtf:cessation": "2024-10-27T01:25:14Z",
+    "edtf:inception": "2024-10-27T00:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2024-10-27",
@@ -48,6 +50,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "101984603"
+    },
     "wof:country": "US",
     "wof:created": 1730132133,
     "wof:geomhash": "d1d4873ced1d6ea3128e45b0b2070718",
@@ -88,7 +93,7 @@
       1159284401,
       1914601007
     ],
-    "wof:lastmodified": 1730132133,
+    "wof:lastmodified": 1730134350,
     "wof:name": "F93381 (SAN-SFO)",
     "wof:parent_id": 1914601007,
     "wof:placetype": "custom",

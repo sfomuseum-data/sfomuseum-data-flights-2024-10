@@ -2,10 +2,12 @@
   "id": 1931401689,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-28",
+    "date:cessation_upper": "2024-10-28",
     "date:inception_lower": "2024-10-27",
     "date:inception_upper": "2024-10-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-27",
+    "edtf:cessation": "2024-10-28T10:47:20Z",
+    "edtf:inception": "2024-10-27T23:59:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "ZG",
     "flysfo:date": "2024-10-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.686867,
     "geom:longitude": 9.012156999999995,
     "iata:airline": "ZG",
+    "icao:aircraft": "B788",
     "icao:airline": "TZP",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289995,
     "sfomuseum:airline_id": 1813375131,
     "sfomuseum:arrival_id": 102541685,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "JA824J",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +57,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83484329"
+    },
     "wof:country": "US",
     "wof:created": 1730133881,
     "wof:geomhash": "b0708fbc9882ec26729f19c3bf135279",
@@ -86,9 +98,10 @@
       102541685,
       102527513,
       1813375131,
-      1914601003
+      1914601003,
+      1159289995
     ],
-    "wof:lastmodified": 1730133881,
+    "wof:lastmodified": 1730134344,
     "wof:name": "ZG25 (SFO-NRT)",
     "wof:parent_id": 1914601003,
     "wof:placetype": "custom",
