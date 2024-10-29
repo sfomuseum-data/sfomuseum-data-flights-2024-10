@@ -2,10 +2,12 @@
   "id": 1931410051,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-28",
-    "date:inception_upper": "2024-10-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-28",
+    "date:cessation_lower": "2024-10-29",
+    "date:cessation_upper": "2024-10-29",
+    "date:inception_lower": "2024-10-29",
+    "date:inception_upper": "2024-10-29",
+    "edtf:cessation": "2024-10-29T03:53:00Z",
+    "edtf:inception": "2024-10-29T02:08:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -114.4957645,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "ANZ",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102529173,
     "sfomuseum:base_flight_id": "20241028-D-ANZ-9234",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N489UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83416438",
+      "swim:gufi": "KO86393200"
+    },
     "wof:country": "US",
     "wof:created": 1730220254,
     "wof:geomhash": "029159a11f35cb7f92e728b838da58ba",
@@ -92,9 +105,10 @@
       102527513,
       1159285413,
       1914601065,
-      1159283697
+      1159283697,
+      1159292085
     ],
-    "wof:lastmodified": 1730220254,
+    "wof:lastmodified": 1730220663,
     "wof:name": "UA1413 (SFO-ABQ)",
     "wof:parent_id": 1914601065,
     "wof:placetype": "custom",

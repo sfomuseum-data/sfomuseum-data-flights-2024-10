@@ -2,10 +2,12 @@
   "id": 1931410149,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2024-10-28",
-    "date:inception_upper": "2024-10-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-28",
+    "date:cessation_lower": "2024-10-29",
+    "date:cessation_upper": "2024-10-29",
+    "date:inception_lower": "2024-10-29",
+    "date:inception_upper": "2024-10-29",
+    "edtf:cessation": "2024-10-29T06:18:53Z",
+    "edtf:inception": "2024-10-29T04:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "THY",
     "lbl:latitude": 37.617921,
     "lbl:longitude": -122.38181,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533269,
     "sfomuseum:base_flight_id": "20241028-D-THY-9587",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N876UA",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914601345,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83419186",
+      "swim:gufi": "KO02249300"
+    },
     "wof:country": "US",
     "wof:created": 1730220284,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931410149,
     "wof:involves": [
-      102533269,
       102527513,
       1159285413,
       1914601379,
-      1159285391
+      1159285391,
+      1159289407,
+      102533269
     ],
-    "wof:lastmodified": 1730220284,
+    "wof:lastmodified": 1730220665,
     "wof:name": "UA1971 (SFO-SEA)",
     "wof:parent_id": 1914601379,
     "wof:placetype": "custom",

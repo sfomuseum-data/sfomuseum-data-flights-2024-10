@@ -2,10 +2,12 @@
   "id": 1931409003,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-28",
+    "date:cessation_upper": "2024-10-28",
     "date:inception_lower": "2024-10-28",
     "date:inception_upper": "2024-10-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-28",
+    "edtf:cessation": "2024-10-28T02:05:18Z",
+    "edtf:inception": "2024-10-28T00:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2024-10-28",
@@ -48,6 +50,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83413204"
+    },
     "wof:country": "US",
     "wof:created": 1730219906,
     "wof:geomhash": "a0e250e9237d15725a2a6f51d6b7a6b6",
@@ -88,7 +93,7 @@
       1159284401,
       1914601029
     ],
-    "wof:lastmodified": 1730219906,
+    "wof:lastmodified": 1730220696,
     "wof:name": "F93362 (SFO-PDX)",
     "wof:parent_id": 1914601029,
     "wof:placetype": "custom",
