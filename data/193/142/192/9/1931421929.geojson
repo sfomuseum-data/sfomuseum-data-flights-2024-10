@@ -2,10 +2,12 @@
   "id": 1931421929,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-30",
+    "date:cessation_upper": "2024-10-30",
     "date:inception_lower": "2024-10-30",
     "date:inception_upper": "2024-10-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-30",
+    "edtf:cessation": "2024-10-30T19:45:33Z",
+    "edtf:inception": "2024-10-30T18:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "UAE",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20241030-A-UAE-6319",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N12238",
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -53,6 +62,10 @@
       1914600841,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83619492",
+      "swim:gufi": "KS52476400"
+    },
     "wof:country": "US",
     "wof:created": 1730391379,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -88,13 +101,14 @@
     ],
     "wof:id": 1931421929,
     "wof:involves": [
+      1914600873,
+      1159284333,
+      1159289871,
       102527513,
       102532251,
-      1159285413,
-      1914600873,
-      1159284333
+      1159285413
     ],
-    "wof:lastmodified": 1730391379,
+    "wof:lastmodified": 1730392698,
     "wof:name": "UA2106 (PDX-SFO)",
     "wof:parent_id": 1914600873,
     "wof:placetype": "custom",
