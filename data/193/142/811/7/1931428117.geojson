@@ -2,10 +2,12 @@
   "id": 1931428117,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2024-10-31",
+    "date:cessation_upper": "2024-10-31",
     "date:inception_lower": "2024-10-31",
     "date:inception_upper": "2024-10-31",
-    "edtf:cessation": "",
-    "edtf:inception": "2024-10-31",
+    "edtf:cessation": "2024-10-31T15:56:21Z",
+    "edtf:inception": "2024-10-31T05:00:48Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "MU",
     "flysfo:date": "2024-10-31",
@@ -21,9 +23,11 @@
     "geom:latitude": 34.381651,
     "geom:longitude": -0.285817999999999,
     "iata:airline": "MU",
+    "icao:aircraft": "B77W",
     "icao:airline": "CES",
     "lbl:latitude": 37.611565,
     "lbl:longitude": -122.389912,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159284157,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102550331,
@@ -34,6 +38,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route"
+    ],
     "wof:belongsto": [
       1914600839,
       102527513,
@@ -48,6 +55,9 @@
       1914600999,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "83657879"
+    },
     "wof:country": "US",
     "wof:created": 1730477388,
     "wof:geomhash": "0a16624c451961804ad27ef012213244",
@@ -83,12 +93,13 @@
     ],
     "wof:id": 1931428117,
     "wof:involves": [
+      1159289993,
       102527513,
       102550331,
       1159284157,
       1914601021
     ],
-    "wof:lastmodified": 1730477388,
+    "wof:lastmodified": 1730479338,
     "wof:name": "MU589 (PVG-SFO)",
     "wof:parent_id": 1914601021,
     "wof:placetype": "custom",
